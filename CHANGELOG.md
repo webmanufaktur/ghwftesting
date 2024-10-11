@@ -1,3 +1,15 @@
+## [2.100.0](https://github.com/webmanufaktur/workflow-playground/compare/v2.99.2...v2.100.0) (2024-10-11)
+
+
+### Features
+
+* feature added ([93af35f](https://github.com/webmanufaktur/workflow-playground/commit/93af35f21a988644c3c828435d94644ebd42e460))
+
+
+### Bug Fixes
+
+* php ([c01c87c](https://github.com/webmanufaktur/workflow-playground/commit/c01c87c23a115f3229e1544adfe16b6c1d91e948))
+
 ## [2.99.2](https://github.com/webmanufaktur/workflow-playground/compare/v1.0.3...v2.99.2) (2024-10-11)
 
 
