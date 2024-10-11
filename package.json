@@ -1,6 +1,6 @@
 {
   "name": "nomad-rent-ch-rev-2",
-  "version": "2024-10-11",
+  "version": null,
   "description": "All necessary files for TailwindCSS in ProcessWire CMS/CMF.",
   "main": "tailwind.config.js",
   "scripts": {

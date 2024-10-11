@@ -1,3 +1,10 @@
+## [](https://github.com/webmanufaktur/workflow-playground/compare/v1.0.3...vnull) (2024-10-11)
+
+
+### Features
+
+* testing ([b4b2dd8](https://github.com/webmanufaktur/workflow-playground/commit/b4b2dd83f1a858f836f03999caaa4d8eac024f7e))
+
 ## [1.0.3](https://github.com/webmanufaktur/workflow-playground/compare/v1.0.2...v1.0.3) (2024-10-11)
 
 
