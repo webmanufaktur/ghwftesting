@@ -1,0 +1,52 @@
+{
+  "name": "nomad-rent-ch-rev-2",
+  "version": "1.0.0",
+  "description": "All necessary files for TailwindCSS in ProcessWire CMS/CMF.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "npm-run-all --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "watch:tailwindcss": "npx tailwindcss -i site/templates/src/tailwind.css -c tailwind.config.js -o site/templates/styles/tailwind.css --watch",
+    "build:tailwindcss": "npx tailwindcss -i site/templates/src/tailwind.css -c tailwind.config.js -o site/templates/styles/tailwind.css --minify",
+    "watch:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --watch --outfile=site/templates/js/alpine.dist.js",
+    "build:alpinejs": "npx esbuild site/templates/src/alpinejs.js --bundle --target=es2018 --minify --outfile=site/templates/js/alpine.dist.js",
+    "watch:appjs": "npx esbuild site/templates/src/app.js --watch --outfile=site/templates/js/app.js",
+    "build:appjs": "npx esbuild site/templates/src/app.js --minify --outfile=site/templates/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmanufaktur/workflow-playground.git"
+  },
+  "keywords": [
+    "Processwire",
+    "ProcessWire CMS",
+    "ProcessWire CMF",
+    "TailwindCSS",
+    "AlpineJS"
+  ],
+  "author": "Alexander Abelt",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/webmanufaktur/workflow-playground/issues"
+  },
+  "homepage": "https://github.com/webmanufaktur/workflow-playground#readme",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "alpinejs": "^3.14.1",
+    "@alpinejs/collapse": "^3.14.1",
+    "@alpinejs/focus": "^3.14.1",
+    "@alpinejs/intersect": "^3.14.1",
+    "@alpinejs/mask": "^3.14.1",
+    "@alpinejs/morph": "^3.14.1",
+    "@alpinejs/persist": "^3.14.1",
+    "esbuild": "^0.23.1",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.4.12",
+    "terser": "^5.33.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6"
+  }
+}

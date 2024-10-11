@@ -1,0 +1,23 @@
+{# base.twig #}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+    {% block seo %}
+      {# SEO #}
+    {% endblock %}
+    {% block css %}
+      {# CSS #}
+    {% endblock %}
+    {% block js %}
+      {# JS #}
+    {% endblock %}
+  </head>
+  <body>
+    {% block content %}
+      {# CONTENT #}
+    {% endblock %}
+  </body>
+</html>
