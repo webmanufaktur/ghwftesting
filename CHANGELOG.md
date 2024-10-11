@@ -1,3 +1,10 @@
+## [2.100.2](https://github.com/webmanufaktur/ghwftesting/compare/v2.100.1...v2.100.2) (2024-10-11)
+
+
+### Reverts
+
+* changes ([b9d232f](https://github.com/webmanufaktur/ghwftesting/commit/b9d232f2ab12286d03a260438c538ce1b5a3d825))
+
 ## [2.100.1](https://github.com/webmanufaktur/ghwftesting/compare/v2.100.0...v2.100.1) (2024-10-11)
 
 
@@ -35,11 +42,4 @@
 ### Features
 
 * full testing ([b32ea6e](https://github.com/webmanufaktur/ghwftesting/commit/b32ea6ebde949e93ba940aebd318a5ea11e9912d))
-
-## [1.0.2](https://github.com/webmanufaktur/ghwftesting/compare/v1.0.1...v1.0.2) (2024-10-11)
-
-
-### Features
-
-* added more branches to workflow ([7d1fb2d](https://github.com/webmanufaktur/ghwftesting/commit/7d1fb2d50c5cf72b2f509dfc33d6dfdd020c2225))
 
