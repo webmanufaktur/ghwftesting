@@ -1,4 +1,11 @@
-## 1.0.1 (2024-10-11)
+## [1.0.2](https://github.com/webmanufaktur/workflow-playground/compare/v1.0.1...v1.0.2) (2024-10-11)
+
+
+### Features
+
+* added more branches to workflow ([7d1fb2d](https://github.com/webmanufaktur/workflow-playground/commit/7d1fb2d50c5cf72b2f509dfc33d6dfdd020c2225))
+
+## [1.0.1](https://github.com/webmanufaktur/workflow-playground/compare/123e01e65881bc3c8fcd52bc97625edb5cb6f114...v1.0.1) (2024-10-11)
 
 
 ### Features
